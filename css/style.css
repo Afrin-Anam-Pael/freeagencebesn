@@ -1,0 +1,636 @@
+/*
+
+Author Name:Afrin Anam Pael;
+Mail Address:afrinanampayel@gmail.com;
+website link:;
+
+*/
+
+
+/*
+
+=====index====
+1.header
+2.home
+3.About
+4.approch
+6.work
+7.footer
+
+*/
+
+/*Global css*/
+body{
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+
+ font-weight:bold;
+ font-size: 35px;
+ color:#848484; 
+}
+h4{
+
+	font-size:18px ;
+	color:#848484;
+	margin: 10px;
+}
+
+p{
+font-size:15px ;
+color:#7c7c7c;
+
+}
+ span{
+border-bottom:5px solid #424242;
+width:5%;
+display: block;
+margin:10px auto;
+
+ }
+/*Theme css*/
+/*header part start*/
+
+header{
+
+	background-color:white ;
+}
+.top-color{
+
+	background-color: #f0f2f4;
+}
+
+.des{
+
+	list-style:none;
+    text-align: right;
+     margin-right:15px;
+}
+ ul li {
+
+	display:inline-block;
+	margin:0px 4px;
+
+}
+.fa.fa-facebook{
+
+padding:5px 10px;
+background-color:blue;
+color: white;
+
+}
+.nav-link{
+	color:#848484!important;
+	font-weight: bold;
+  
+}
+
+
+.nav-link:hover{
+color:red!important;
+}
+.btn-light{
+color:white;
+background-color:red;
+padding:7px 10px;
+font-weight: bold;
+}
+.navbar-toggler{
+
+	background-color: #ce0e00;
+	padding: 0px 9px;
+	border-radius: 7px;
+	
+
+}
+.navbar-toggler-icon{
+color: white!important;
+background-color:#ce0e00;
+border-bottom: 0px;
+
+}
+
+/*header part end*/
+/*hero section start*/
+.hero{
+
+	background:url(../img/bg.png)no-repeat top center;
+	background-size: cover;
+	padding: 170px 0px;
+	text-align:center;
+}
+
+
+.hero-title h1{
+
+padding-top: 100px;
+font-size:40px;
+color:white;
+
+}
+
+.hero-title p{
+font-size: 25px;
+color:white;
+
+}
+.btn1{
+padding: 20px 40px;
+color:white;
+background-color: #f8cd53;
+text-transform: uppercase;
+border-radius: 10px;
+font-weight: bold;
+font-size: 17px;
+}
+/*hero section end*/
+/*about section start*/
+.about{
+
+	padding:70px 0px;
+	text-align:center;
+	
+}
+.ab1{
+
+	padding:50px 0px;
+	text-align: center;
+}
+
+.sr1 p{
+
+	padding: 5px 25px;
+}
+/*about section end*/
+/*approch section start*/
+.approch{
+
+	background-color: #f3f3f3;
+	padding:50px 0px;
+}
+.stp1{
+     padding: 0px 0px !important;
+     margin: 20px 0px;
+	background-color: white;
+}
+
+.par{
+
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.par2{
+
+	margin-right:0%;
+	padding-right: 0%;
+	position: relative; 
+}
+.child {
+    position: absolute;
+    width: 30%;
+    background-color: #f51f10;
+    color: white;
+    font-weight: bold;
+    height: 44%;
+    text-align: center;
+    top: 26%;
+    right: -8%;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+    
+}
+.child h2{
+	color:white;
+	font-weight: bold;
+	margin-top:15px; 
+}
+.child p{
+	color:white;
+	font-weight: bold;
+	line-height: 5px;
+}
+.child2 {
+    position: absolute;
+    width: 30%;
+    background-color: red;
+    height: 44%;
+    text-align: center;
+    color: white;
+    top: 26%;
+    left: -23px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.child2 h2{
+	color:white;
+	font-weight: bold;
+	margin-top:15px; 
+}
+.child2 p{
+	color:white;
+	font-weight: bold;
+	line-height: 5px;
+}
+.stt{
+
+	padding: 45px 40px;
+}
+/*approch section end*/
+/*work section start*/
+.work{
+	padding:50px 0px;
+	 background-color: #de2b24;
+}
+.ref{
+    padding: 0px!important;
+	margin: 0px!important;
+
+}
+.mef{
+    padding: 0px!important;
+	margin: 0px!important;
+
+	
+}
+.wrkt{
+
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+.wrkt h1{
+
+color:white;
+
+}
+.wrkt p{
+
+color:white;
+}
+.wrkt span{
+border-bottom: 5px solid white;
+
+}
+.img-center{
+
+	display: block!important;
+	margin: 0 auto;
+	width: 100%;
+}
+.ted{
+
+	background-color:#f35e59 ;
+	text-align: center;
+	padding-top:30px;
+}
+.ted h2{
+
+font-size: 25px;
+color: white;
+font-weight: bold;
+margin:10px 0px;
+}
+.ted p{
+
+color:white;
+padding:0px 25px;
+}
+
+.fa.fa-paper-plane-o{
+
+font-size: 32px;
+color: white;margin: 20px;
+}
+
+/*work section end*/
+.frm{
+
+	padding: 50px 0px;
+	background-color: #1287bf;
+}
+
+.frm-title h1{
+
+color:white;
+text-align: center;
+}
+.frm-title p{
+
+color:white;
+text-align: center;
+}
+.icon{
+
+	text-align: center;
+	padding-bottom: 30px;
+}
+.fom{
+	background-color: white!important;
+	padding: 30px 0px;
+	text-align: center;
+	position: relative;
+}
+.fom p{
+
+	padding: 20px 30px;
+	text-align: center;
+	font-size: 12px;
+}
+.fa.fa-chevron-circle-down{
+font-size: 50px;
+color: white;
+
+}
+.form-control{
+	display: block;
+	margin: 10px auto;
+    width:80%;
+    padding: 25px 15px;
+
+
+}
+.btnl{
+margin: 20px 0px;
+color:white;
+background-color: red;
+border-radius: 15px;
+font-weight: bold;
+padding: 10px 20px;
+}
+.fa.fa-times-circle{
+font-size: 32px;
+color:red;
+position: absolute;
+top: -2%;
+right: -1%;
+
+
+}
+.fom2{
+
+	text-align:center;
+	padding: 50px 0px;
+	background-color: #2a2a2a;
+}
+.ft h1{
+
+	color:white;
+}
+
+.frp{
+
+padding: 20px 0px;
+}
+.fc{
+
+text-align: center;
+}
+.fc ul{
+
+list-style: none;
+
+}
+.fc ul li{
+display: inline-block;
+ 
+}
+
+.fa.fa-facebook.le{
+
+color:white;
+background-color: black;
+border:1px solid white;
+}
+
+.fa.fa-twitter{
+color:white;
+background-color: black;
+border:1px solid white;
+padding: 5px 10px;
+
+}
+.form-2{
+    display: block;
+	margin: 10px auto;
+    width:50%;
+    padding: 10px 15px;
+    background-color: #515151;
+    border-color:#515151; 
+}
+.fa.fa-glide-g{
+
+color:white;
+background-color: black;
+border:1px solid white;
+padding: 5px 10px;
+
+
+}
+.fa.fa-linkedin{
+
+color:white;
+background-color: black;
+border:1px solid white;
+padding: 5px 10px;
+}
+.fp p{
+
+	color:white;
+
+}
+
+.frm{
+
+	padding: 20px 0px;
+	background-color: #1287bf;
+}
+
+
+.fbtn{
+
+margin: 20px 0px;
+color:white;
+background-color:black;
+border-color: white;
+border-radius: 10px;
+font-weight: bold;
+padding: 10px 25px;
+}
+footer{
+	background-color:#515151;
+	padding:50px; 
+	text-align: center;
+}
+
+
+
+@media(min-width: 320px) and (max-width: 500px){
+p{
+	font-size:12px;
+}
+h1{
+	font-size: 20px;
+}
+h4{
+
+	font-size:14px ;
+	color:#848484;
+	margin: 10px;
+}
+.hero{
+
+	background:url(../img/bg.png)no-repeat top center;
+	background-size: cover;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	text-align:center;
+}
+.hero-title h1{
+
+font-size:20px;
+color:white;
+
+}
+
+.hero-title p{
+font-size: 12px;
+color:white;
+
+}
+.btn1{
+padding: 5px 15px;
+color:white;
+background-color: #f8cd53;
+text-transform: uppercase;
+border-radius: 5px;
+font-weight: bold;
+font-size: 10px;
+}
+.about{
+
+	padding:20px 0px;
+	text-align:center;
+	
+}
+.ab1{
+
+	padding:10px 0px;
+	text-align: center;
+}
+
+.sr1 p{
+
+	padding: 5px 50px;
+}
+
+.approch{
+
+	background-color: #f3f3f3;
+	padding:20px 0px;
+}
+
+.child {
+    position: absolute;
+    width: 40%;
+    background-color: #f51f10;
+    color: white;
+    font-weight: bold;
+    height: 30%;
+    text-align: center;
+    top: 12%;
+    right: -8%;
+    border: 3px solid white;
+    border-radius: 10px;
+    
+    
+}
+.child h2{
+	color:white;
+	font-weight: bold;
+	margin-top:5px; 
+	font-size: 12px;
+}
+.child p{
+	color:white;
+	font-weight: bold;
+	line-height: 5px;
+	font-size: 10px;
+}
+.child2 {
+    position: absolute;
+    width: 40%;
+    background-color: red;
+    height: 30%;
+    text-align: center;
+    color: white;
+    top: 12%;
+    left: -21px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.child2 h2{
+	color:white;
+	font-weight: bold;
+	margin-top:5px; 
+	font-size: 12px; 
+}
+.child2 p{
+	color:white;
+	font-weight: bold;
+	line-height: 5px;
+	font-size: 10px;
+}
+.stt{
+
+	padding: 5px 40px;
+}
+
+.ted{
+
+	background-color:#f35e59 ;
+	text-align: center;
+	padding:25px 30px;
+  
+}
+.ted h2{
+	font-size: 17px;
+}
+.img-center{
+
+	display: block!important;
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+}
+.fom2{
+
+	text-align:center;
+	padding: 20px 0px;
+	background-color: #2a2a2a;
+}
+
+footer{
+
+
+	padding: 20px;
+}
+
+}
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}
